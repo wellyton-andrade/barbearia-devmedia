@@ -12,8 +12,8 @@ body{
 .banner{
     height: 50vh;
     width: 100vw;
-       max-width: 1380px;
-       max-height: 568px;
+    max-width: 1380px;
+    max-height: 568px;
    background-image: url(banner-barbearia.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -33,34 +33,34 @@ body{
    .about{
        margin: 30px auto;
        width: 50%;
-       display: flex;
-       flex-wrap: wrap;
+       display:grid;
+       flex-wrap:wrap;
        text-align: center;
        justify-content: center;
    
    }
    
    
-   h3{
+   .welcome {
        font-family: Poppins;
        font-weight: 550;
        font-size: 17pt;
    }
    
    
-   .mundo{
+   .paragraph{
        font-family: Poppins;
        font-weight: 600;
        font-size: 7pt;
    }
    
-   .mundial{
+   .detalhesp{
        font-family: Poppins;
        font-weight: 400;
        font-size: 7pt;
    }
    
-   .kelly{
+   .assinatura{
        font-family: Great Vibes;
        font-size: 20pt;
        color: #b2987d;

@@ -38,11 +38,11 @@ return(<body className={`${mode}`}>
 <footer className={`footer ${mode}`}>
     <div className="banner"/>
     <div className="about">
-    <h3>Bem-vindo a Barber Shop</h3>
-    <span className={'mundo'}>Nossa barbearia sempre oferece profissionais de qualidade e estamos prontos para lidar com suas maiores expectativas.
+    <h3 className="welcome">Bem-vindo a Barber Shop</h3>
+    <span className={'paragraph'}>Nossa barbearia sempre oferece profissionais de qualidade e estamos prontos para lidar com suas maiores expectativas.
     </span>
-    <p className={`mundial`}>Nossos serviços são dedicados ao seu sucesso pessoal. Aqui temos uma equipe premiada que demonstrou o talento de mestres barbeiros em vários concursos de estilo. Deixe nosso barbeiro ser seu estilista pessoal e você nunca ficará desapontado.</p>
-    <p className="kelly">S. Kelly</p>
+    <p className={`detalhesp`}>Nossos serviços são dedicados ao seu sucesso pessoal. Aqui temos uma equipe premiada que demonstrou o talento de mestres barbeiros em vários concursos de estilo. Deixe nosso barbeiro ser seu estilista pessoal e você nunca ficará desapontado.</p>
+    <p className="assinatura">S. Kelly</p>
     </div>
 </footer>
 
