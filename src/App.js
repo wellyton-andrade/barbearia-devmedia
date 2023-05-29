@@ -12,12 +12,12 @@ document.body.className = mode;
 
 
 
-function Buttondark(){
-    return(<button onClick={Darkmode} className={`bt`}><img src={sun} alt="sun" className="lua"/> Light</button>);
-}
 function Buttonwhite(){
+    return(<button onClick={Whitemode} className={`bt dark`}><img src={sun} alt="sun" className="lua"/> Light</button>);
+}
+function Buttondark(){
 
-    return(<button onClick={Whitemode} className="bt dark"><img src={moon} alt="lua" className="lua"/> Dark</button>);
+    return(<button onClick={Darkmode} className="bt"><img src={moon} alt="lua" className="lua"/> Dark</button>);
 }
 function Darkmode(){
  change("dark");
