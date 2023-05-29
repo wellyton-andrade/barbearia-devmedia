@@ -1,0 +1,115 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+.banner{
+    height: 50vh;
+    width: 100vw;
+       max-width: 1380px;
+       max-height: 568px;
+   background-image: url(banner-barbearia.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+   margin: 10px auto;
+   }
+   @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+   .footer{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+
+   
+   }
+   
+   
+   .about{
+       margin: 30px auto;
+       width: 50%;
+       display: flex;
+       flex-wrap: wrap;
+       text-align: center;
+       justify-content: center;
+   
+   }
+   
+   
+   h3{
+       font-family: Poppins;
+       font-weight: 550;
+       font-size: 17pt;
+   }
+   
+   
+   .mundo{
+       font-family: Poppins;
+       font-weight: 600;
+       font-size: 7pt;
+   }
+   
+   .mundial{
+       font-family: Poppins;
+       font-weight: 400;
+       font-size: 7pt;
+   }
+   
+   .kelly{
+       font-family: Great Vibes;
+       font-size: 20pt;
+       color: #b2987d;
+   }
+.topo{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    height: 40px;
+  
+}
+
+.logo{
+    width: 70px;
+}
+.lua{
+    width: 15px;
+}
+
+
+.bt{
+background-color: transparent;
+border: 2px solid #b2987d;
+border-radius: 100px;
+padding: 9px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Poppins;
+width: 70px;
+height: 35px;
+font-size: 7pt;
+font-weight: 600;
+
+}
+
+.bt img{
+    margin-right: 7px;
+}
+
+
+
+.dark{
+    background-color:#252523;
+    color: #fff !important;
+}
