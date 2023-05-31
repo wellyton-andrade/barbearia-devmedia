@@ -5,7 +5,7 @@ import moon from './css/moon.png';
 import sun from './css/sun.png';
 
 function App(){
-const [mode, change] = useState('white');
+const [mode, change] = useState('');
 const [button, trocar] = useState(<Buttondark/>);
 document.body.className = mode;
 
